@@ -39,7 +39,7 @@ h1 em {
 
 /* Header Styles */
 header {
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 10;
     background-color: #f4d03f; /* Vibrant yellow */
