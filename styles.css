@@ -12,6 +12,30 @@ body {
     line-height: 1.6;
     padding-top: 80px;
 }
+h1 {
+    font-family: 'Arial', sans-serif; /* Change to a nice font */
+    font-size: 2.5em; /* Adjust font size */
+    font-weight: bold; /* Make it bold for emphasis */
+    text-align: center; /* Center align the heading */
+    color: #4C4C4C; /* Change text color to a nicer shade */
+}
+.top-right-image {
+    position: absolute; 
+    background-attachment: absolute;/* Allows positioning relative to the browser window */
+    top: 100px; /* Adjusts distance from the top */
+    right: 130px; /* Adjusts distance from the right */
+    width: 150px; /* Adjust the size of the image */
+    height: 120px; /* Keeps aspect ratio intact */
+    z-index: 1000;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Keeps it on top of other elements */
+}
+
+h1 em {
+    font-style: italic; /* Make "JOS" italics */
+    font-family: 'Georgia', serif; /* Apply a different, elegant font to "JOS" */
+    color: #8B0000; /* Set a distinct color for "JOS" */
+}
 
 /* Header Styles */
 header {
@@ -35,7 +59,7 @@ header h1 {
 header p {
     font-size: 1.2rem;
     letter-spacing: 0.5px;
-    color: white;
+    color: rgb(84, 80, 80);
     opacity: 0.9;
 }
 
